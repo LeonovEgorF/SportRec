@@ -1,4 +1,4 @@
 {
-    "avatar": "/src/assets/avatar.png",
+    "avatar": "./img/avatar.png",
     "notices": true
 }

@@ -1,7 +1,7 @@
 {
     "title": "Спортивная Организация Алтайского Края",
-    "logoOrg": "/src/assets/logoOrg.png",
-    "flagCountry": "/src/assets/flagRf.png",
+    "logoOrg": "img/logoOrg.png",
+    "flagCountry": "img/flagRf.png",
     "liveBroadcast": false,
     "accreditation": true,
     "ratingOrg": 2,

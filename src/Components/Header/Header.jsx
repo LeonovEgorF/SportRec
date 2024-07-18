@@ -1,11 +1,8 @@
 import "./Header.scss";
-import logo from "../../assets/logo.png";
 import nav from "./nav.json";
 import { NavLink } from "react-router-dom";
 import SelectCustom from "../../widgets/SelectCustom/SelectCustom";
 import user from "../../mock/user.json";
-import ru from "../../assets/ru.png";
-import eng from "../../assets/eng.png";
 import { Container } from "@mui/material";
 
 export default function Header() {
@@ -13,7 +10,7 @@ export default function Header() {
     <Container>
       <header className="header">
         <div className="header__logotip">
-          <img src={logo} alt="logo" />
+          <img src="./img/logo.png" alt="logo" />
         </div>
         <nav className="header__nav">
           {nav.map((item) => (
@@ -31,12 +28,12 @@ export default function Header() {
               {
                 value: "ru",
                 label: "Ru",
-                image: ru,
+                image: "./img/ru.png",
               },
               {
                 value: "en",
                 label: "En",
-                image: eng,
+                image: "./img/eng.png",
               },
             ]}
             type="lang"

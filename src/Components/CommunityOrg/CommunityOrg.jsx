@@ -1,9 +1,6 @@
 import "./CommunityOrg.scss";
 import Avatar from "@mui/material/Avatar";
 import AvatarGroup from "@mui/material/AvatarGroup";
-import avatarFirst from "../../assets/avatar1.png";
-import avatarSecond from "../../assets/avatar2.png";
-import avatarThird from "../../assets/avatar3.png";
 
 export default function CommunityOrg({ users, followers, leagues }) {
   return (
@@ -12,18 +9,18 @@ export default function CommunityOrg({ users, followers, leagues }) {
         <AvatarGroup max={4} sx={{ justifyContent: "flex-end" }}>
           <Avatar
             alt="Remy Sharp"
-            src={avatarFirst}
+            src="./img/avatar1.png"
             sx={{ width: "22px", height: "22px" }}
           />
 
           <Avatar
             alt="Travis Howard"
-            src={avatarSecond}
+            src="./img/avatar2.png"
             sx={{ width: "22px", height: "22px" }}
           />
           <Avatar
             alt="Cindy Baker"
-            src={avatarThird}
+            src="./img/avatar3.png"
             sx={{ width: "22px", height: "22px" }}
           />
         </AvatarGroup>
