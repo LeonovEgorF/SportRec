@@ -1,0 +1,46 @@
+@import "../../style/vars.scss";
+.achivments {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  color: $textGray;
+  font-size: 12px;
+  &__item {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    background-color: $bg;
+    padding: 8px 10px;
+    border-radius: 8px;
+  }
+  &__circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+
+  .first {
+    background: linear-gradient(
+      276deg,
+      #be823b 3.64%,
+      #d0a461 72.32%,
+      #fed5a5 110.54%
+    );
+  }
+  .second {
+    background: linear-gradient(
+      276deg,
+      #878788 3.64%,
+      #bfc0c5 72.32%,
+      #939499 110.54%
+    );
+  }
+  .third {
+    background: linear-gradient(
+      276deg,
+      #74391d 3.64%,
+      #c46236 72.32%,
+      #ff9b67 110.54%
+    );
+  }
+}

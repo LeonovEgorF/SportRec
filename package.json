@@ -13,11 +13,17 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
-    "@mui/material": "^5.16.1",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mobiscroll/react-lite": "^4.10.9",
+    "@mui/material": "^5.16.4",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "firebase": "^10.12.3",
     "normalize.css": "^8.0.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
+    "react-select": "^5.8.0",
+    "styled-components": "^6.1.12"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -28,6 +34,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "sass": "^1.77.8",
-    "vite": "^5.3.1"
+    "vite": "^5.3.1",
+    "vite-plugin-svg-spriter": "^1.0.0"
   }
 }

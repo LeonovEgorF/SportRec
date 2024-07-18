@@ -1,0 +1,21 @@
+@import "../../style/vars.scss";
+.title-organization {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  &__content {
+    font-size: 30px;
+    font-family: $fontMed;
+    color: $textdark;
+    max-width: 660px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+.verificate-content {
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}

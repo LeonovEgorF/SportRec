@@ -1,0 +1,9 @@
+@import "../../style/vars.scss";
+.MuiTabs-indicator {
+  background-color: #7b7ea5 !important;
+  height: 3px !important;
+}
+.Mui-selected {
+  color: #06082c !important;
+  font-family: $fontMed !important;
+}

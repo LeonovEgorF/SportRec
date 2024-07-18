@@ -1,0 +1,14 @@
+.tape {
+  .wrapperContetnt {
+    margin-top: 24px;
+    display: flex;
+    column-gap: 24px;
+    .content {
+      flex-basis: 70%;
+      min-height: 40vh;
+    }
+    .asside {
+      flex-basis: 30%;
+    }
+  }
+}

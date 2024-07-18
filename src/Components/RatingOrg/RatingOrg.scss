@@ -1,0 +1,15 @@
+.content-rating {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  color: #7b7ea5;
+  text-align: end;
+  margin-right: 16px;
+  cursor: pointer;
+  svg {
+    width: 9px;
+    height: 12px;
+    margin-right: 5px;
+  }
+}

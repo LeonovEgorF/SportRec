@@ -1,0 +1,60 @@
+@import "../../style/vars.scss";
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  font-family: $fontMed;
+  &__logotip {
+    margin-right: 40px;
+  }
+  &__nav {
+    display: flex;
+    margin-right: 40px;
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: $textGray;
+      font-family: $fontMed;
+      margin-right: 15px;
+      svg {
+        width: 16px;
+        height: 15px;
+        stroke: $textGray;
+        margin-right: 10px;
+      }
+    }
+    .active {
+      color: $textdark;
+      svg {
+        stroke: $textdark;
+      }
+    }
+    :last-child {
+      margin-right: 0;
+    }
+  }
+  &__lang {
+    margin-right: 40px;
+  }
+  &__notices {
+    position: relative;
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+    .header__dots {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: #d21010;
+      position: absolute;
+      top: 0;
+      right: -2.5px;
+    }
+  }
+}

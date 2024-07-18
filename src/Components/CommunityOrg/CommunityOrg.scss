@@ -1,0 +1,29 @@
+@import "../../style/vars.scss";
+.community {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  &__statistic {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  &__item {
+    position: relative;
+    span {
+      margin-left: 6px;
+      color: $textGray;
+      font-size: 14px;
+    }
+    &_dots::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -6px;
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background-color: #cccfda;
+    }
+  }
+}

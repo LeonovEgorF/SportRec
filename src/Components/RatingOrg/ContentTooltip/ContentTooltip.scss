@@ -1,0 +1,49 @@
+@import "../../../style/vars.scss";
+.tooltip {
+  color: $textTooltip;
+  &__title {
+    font-size: 14px;
+    font-family: $fontMed;
+    margin-bottom: 16px;
+  }
+  &__list {
+    font-family: $fontReg;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 12px;
+    .tooltip__caunt {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        width: 14px;
+        height: 14px;
+        margin-right: 6px;
+      }
+    }
+  }
+  &__item:last-child {
+    margin-bottom: 16px;
+  }
+  &__result-rating {
+    font-family: $fontMed;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  &__descr-result-rating {
+    font-family: $fontReg;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+.tooltip::before {
+  content: url("../../../assets/svg-sprite/tooltipArrow.svg");
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  right: 24px;
+}

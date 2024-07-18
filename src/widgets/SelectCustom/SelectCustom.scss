@@ -1,0 +1,59 @@
+.custom__value {
+  display: flex;
+  align-items: center;
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
+
+.custom-control {
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+  border: 1px solid #ccc;
+
+  &:hover {
+    border: 1px solid #aaa;
+  }
+}
+
+.custom-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
+
+.custom-single-value {
+  display: flex;
+  align-items: center;
+}
+.avatarStyle {
+  background-color: #06082c;
+  border-radius: 50%;
+  img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+}
+
+.custom-indicators-container {
+  border: none;
+  padding: 0;
+}
+
+.custom-indicator-separator {
+  display: none;
+}
+
+.custom-dropdown-indicator {
+  padding: 0;
+}

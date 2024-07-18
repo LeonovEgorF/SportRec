@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Лента",
+        "path": "tape",
+        "id": 1
+    },
+    {
+        "title": "Маркетплейс",
+        "path": "market",
+        "id": 2
+    },
+    {
+        "title": "Рейтинги",
+        "path": "ratings",
+        "id": 3
+    },
+    {
+        "title": "Соревнования",
+        "path": "competitions",
+        "id": 4
+    },
+    {
+        "title": "Организации",
+        "path": "profile",
+        "id": 5
+    },
+    {
+        "title": "Live",
+        "path": "live",
+        "id": 6
+    }
+]

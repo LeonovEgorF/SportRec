@@ -1,0 +1,55 @@
+{
+    "title": "Спортивная Организация Алтайского Края",
+    "logoOrg": "/src/assets/logoOrg.png",
+    "flagCountry": "/src/assets/flagRf.png",
+    "liveBroadcast": false,
+    "accreditation": true,
+    "ratingOrg": 2,
+    "countUSers": 45,
+    "countFollowers": 125,
+    "countLeagues": 12,
+    "cityOrg": "Алтайский край",
+    "directions": [
+        "Грэпплинг",
+        "Греко-римская борьба",
+        "Пляжная борьба"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "name": "first",
+            "count": 12
+        },
+        {
+            "id": 2,
+            "name": "second",
+            "count": 4
+        },
+        {
+            "id": 3,
+            "name": "third",
+            "count": 19
+        }
+    ],
+    "listEditRating": [
+        {
+            "id": 1,
+            "dateEdit": "1 февраля 2024г",
+            "cauntRating": 3,
+            "upRating": true
+        },
+        {
+            "id": 2,
+            "dateEdit": "25 января 2024г",
+            "cauntRating": 6,
+            "upRating": true
+        },
+        {
+            "id": 3,
+            "dateEdit": "2 января 2024г",
+            "cauntRating": 8,
+            "upRating": false
+        }
+    ],
+    "statusRating": "Высокий"
+}

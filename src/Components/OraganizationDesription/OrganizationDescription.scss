@@ -1,0 +1,87 @@
+@import "../../style/vars.scss";
+.description-org {
+  min-height: 40vh;
+  margin-bottom: 24px;
+
+  &__header {
+    background: linear-gradient(90deg, rgb(9, 4, 62) 0%, rgb(41, 32, 139) 100%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px;
+    min-height: 134px;
+  }
+  &__main {
+    padding: 20px 0 0px 20px;
+    min-height: 442px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+
+    font-family: $fontMed;
+    .logo-content {
+      display: flex;
+      position: relative;
+      margin-bottom: 63px;
+      &__wrapper-img {
+        position: absolute;
+        top: -72px;
+      }
+      &__container-img {
+        position: relative;
+        .logo-content__flag-country {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+  &__title-container {
+    margin-bottom: 16px;
+  }
+  &__directions-container {
+    margin-bottom: 16px;
+  }
+  &__community {
+    margin-bottom: 28px;
+  }
+  &__achivments {
+    margin-bottom: 40px;
+  }
+  &__wrapper-btn {
+    margin-bottom: 40px;
+    font-family: $fontMed;
+    display: flex;
+    column-gap: 8px;
+    font-size: 14px;
+    .subscribe {
+      width: 135px;
+      height: 40px;
+      background-color: $textdark;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px;
+      color: white;
+    }
+    .more {
+      background-color: $bg;
+      width: 123px;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+    }
+    .share {
+      border: none;
+      background-color: $bg;
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  &__tabs {
+    color: $textGray;
+  }
+}
